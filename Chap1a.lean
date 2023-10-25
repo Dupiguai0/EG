@@ -31,7 +31,7 @@ lemma b_ne_a : B ≠ A := (ne_of_not_colinear hnd).2.2
 lemma c_ne_a : C ≠ A := (ne_of_not_colinear hnd).2.1.symm
 lemma b_ne_c : B ≠ C := (ne_of_not_colinear hnd).1.symm
 --定义DE为AB AC 上的点
-
+variable {D E : P}{hd : D LiesInt (SEG_nd A B (b_ne_a (hnd := hnd)))} 
 
 
 
